@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div id="heading">Login</div>
+    <form ng-controller="UserController" ng-submit="login()">
+        <label for="usernameLogin">Username:</label>
+        <input id="usernameLogin" type="text" ng-model="loginData.username" placeholder="Username" />
+        <label for="passwordLogin">Password:</label>
+        <input id="passwordLogin" type="password" ng-model="loginData.password" placeholder="Password"/>
+    <div class="checkbox">
+        <label><input type="checkbox">Remember me</label>
+    </div>
+    </form>
+    <button id="loginButton">Login</button>
+    <button id="registerButton">Register</button>
+    </div>
+
