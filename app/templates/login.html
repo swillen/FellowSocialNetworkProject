@@ -1,7 +1,7 @@
 
 <div class="container">
     <div id="heading">Login</div>
-    <form ng-controller="UserController" ng-submit="login()">
+    <form ng-controller="LoginController" ng-submit="login()">
         <label for="usernameLogin">Username:</label>
         <input id="usernameLogin" type="text" ng-model="loginData.username" placeholder="Username" />
         <label for="passwordLogin">Password:</label>
@@ -9,8 +9,10 @@
     <div class="checkbox">
         <label><input type="checkbox">Remember me</label>
     </div>
+        <button type="submit" id="loginButton">Login</button>
+        <button href="/#/register" id="registerButton">Register</button>
     </form>
-    <button id="loginButton">Login</button>
-    <button id="registerButton">Register</button>
+
     </div>
+
 
